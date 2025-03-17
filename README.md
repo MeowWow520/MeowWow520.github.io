@@ -21,12 +21,18 @@
 **Hexo** 的Github仓库：https://github.com/hexojs/hexo
 ![Hexo](https://img.picui.cn/free/2025/03/17/67d81cb319ab9.png)
 
+---
+
 **Aurura** 的官方文档：https://aurora.tridiamond.tech/en/
 ![Docs-Hexo](https://img.picui.cn/free/2025/03/17/67d81cb085437.png)
 
-**Aurura** 的Github仓库：https://github.com/auroral-ui/hexo-theme-aurora
-![Github-Hexo](https://img.picui.cn/free/2025/03/17/67d81cb0850ee.png)
 ---
+
+**Aurura** 的Github仓库：https://github.com/auroral-ui/hexo-theme-aurora 
+![Github-Hexo](https://img.picui.cn/free/2025/03/17/67d81cb0850ee.png)
+
+---
+
 # CC BY-NC-SA 4.0
 **您可以自由地：**
 - **共享** — 在任何媒介以任何形式复制、发行本作品
