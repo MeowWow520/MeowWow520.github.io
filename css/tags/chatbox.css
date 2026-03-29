@@ -1,0 +1,127 @@
+.chatbox {
+  background: var(--background-color);
+  border: 1px solid var(--card-border-color);
+  width: 80%;
+  border-radius: 0.8rem;
+  margin: 2rem auto;
+  overflow: hidden;
+  position: relative;
+}
+.chatbox:not([open]) {
+  max-height: 45rem;
+}
+.chatbox-toggle {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2.5rem;
+  transition: background 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.chatbox-toggle svg {
+  width: 2rem;
+  height: 2rem;
+  color: var(--font-color-light-3);
+  animation: bounce 1.2s ease infinite;
+  transition: color 0.3s ease-in-out;
+}
+.chatbox-toggle:hover {
+  background: var(--background-color);
+  box-shadow: var(--meow-card-shadow);
+}
+.chatbox-toggle:hover svg {
+  color: var(--theme-color);
+}
+.chatbox-title {
+  height: 4rem;
+  background: var(--font-color-light-1);
+  color: var(--font-color-invert);
+  font-size: 1.15em;
+  font-weight: bold;
+  text-align: center;
+  line-height: 4rem;
+}
+.chatbox-main {
+  padding: 1.2rem 1.5rem;
+}
+.chatbox-time {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: var(--font-color-light-2);
+  font-size: 0.8em;
+}
+.chatbox-item {
+  display: flex;
+  margin-bottom: 1.2rem;
+  align-items: flex-start;
+}
+.chatbox-item>div:nth-child(2) {
+  margin: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  max-width: calc(100% - 6rem - 2rem);
+}
+.chatbox-item[right] {
+  flex-direction: row-reverse;
+}
+.chatbox-item[right] >div:nth-child(2) {
+  align-items: flex-end;
+}
+.chatbox-item[right] .chatbox-content {
+  background: var(--theme-color-light-3);
+}
+.chatbox-avatar {
+  width: 3rem;
+  height: 3rem;
+  aspect-ratio: 1;
+  border-radius: 0.8rem;
+}
+.chatbox-avatar:has(svg) {
+  background: var(--background-color-grey-light-1);
+  display: flex;
+  justify-content: center;
+}
+.chatbox-avatar img {
+  margin: 0;
+}
+.chatbox-avatar svg {
+  width: 2rem;
+}
+.chatbox-name {
+  color: var(--font-color-light-2);
+  font-size: 0.8em;
+  margin: 0 0.25rem;
+}
+.chatbox-content {
+  min-height: 3rem;
+  background: var(--background-color);
+  box-shadow: var(--meow-card-shadow);
+  padding: 0.66rem 0.75rem;
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.chatbox-content p {
+  margin: 0;
+}
+.chatbox-img img {
+  margin: 0.8rem auto;
+}
+body[data-mode="dark"] .chatbox-title {
+  background: var(--background-color-grey-light-2);
+  color: var(--font-color);
+}
+body[data-mode="dark"] .chatbox-content {
+  background: var(--background-color-grey-light-2);
+}
+body[data-mode="dark"] .chatbox-item[right] .chatbox-content {
+  color: var(--font-color-light-3);
+}
+meow-smallscreen()
