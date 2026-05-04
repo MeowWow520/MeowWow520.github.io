@@ -1,5 +1,6 @@
 @import url("/assets/fonts/vivoSans-Regular/result.css");
-@import url("/assets/fonts/SFMonoRegular/result.css");
+@import url("https://registry.npmmirror.com/@chinese-fonts/mkzyt/2.0.1/files/dist/猫啃珠圆体/result.css");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
 body[data-mode='light'] {
   --theme-color: #ffb347;
   --theme-color-light-1: #ffd191;
@@ -74,6 +75,6 @@ body[data-mode='dark'] {
   --meow-page-width: 1100px;
   --meow-navbar-height: 60px;
   --meow-font-default: 'vivo Sans', 'PingFang SC', 'Microsoft YaHei', Sans-serif, Serif;
-  --meow-font-title: 'vivo Sans', 'PingFang SC', 'Microsoft YaHei', Sans-serif, Serif;
-  --meow-font-code: 'SF Mono', 'vivo Sans', 'PingFang SC', 'Microsoft YaHei', Courier, Consolas, Sans-serif;
+  --meow-font-title: 'MaokenZhuyuanTi', 'vivo Sans', 'PingFang SC', 'Microsoft YaHei', Sans-serif, Serif;
+  --meow-font-code: 'JetBrains Mono', Consolas, Sans-serif;
 }
