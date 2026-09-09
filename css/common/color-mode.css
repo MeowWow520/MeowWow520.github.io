@@ -24,7 +24,7 @@ body[data-mode='light'] {
   --font-color-light-2: #9b9b9b;
   --font-color-light-3: #cdcdcd;
   --link-hover-font-color: #fff;
-  --banner-background: url("/assets/images/main-page/light-1.jpg");
+  --banner-background: url("/assets/banner/light-1.jpg");
   --banner-font-color: #ff006e;
   --nav-background-color: rgba(255,255,255,0.188);
   --card-border-color: #d7d7d7;
@@ -57,7 +57,7 @@ body[data-mode='dark'] {
   --font-color-light-2: #808090;
   --font-color-light-3: #5b5b67;
   --link-hover-font-color: #2d2d2d;
-  --banner-background: url("/assets/images/main-page/dark-1.avif");
+  --banner-background: url("/assets/banner/dark-1.avif");
   --banner-font-color: #ff758f;
   --nav-background-color: transparent;
   --card-border-color: #3b3b3b;

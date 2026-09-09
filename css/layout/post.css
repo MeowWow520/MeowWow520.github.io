@@ -109,7 +109,7 @@
 }
 .post-nav >a:after {
   content: "";
-  background-image: url("https://blogsmeowwow520cn.oss-cn-beijing.aliyuncs.com/assets/handers/myhander-kamiina.jpg");
+  background-image: url("/assets/site/avatar.jpg");
   background-size: cover;
   position: absolute;
   top: 0;
