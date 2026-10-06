@@ -1,0 +1,12 @@
+# robots.txt for https://meowwow520.moe/
+# Reference: RFC 9309 - https://www.rfc-editor.org/rfc/rfc9309
+# Served from source/robots.txt by Hexo (hexo generate -> public/robots.txt).
+
+# Search engines and other well-behaved crawlers: full access to content.
+User-agent: *
+Allow: /
+Disallow: /404.html
+Disallow: /assets/fonts/
+
+# Sitemap for crawler discovery.
+Sitemap: https://meowwow520.moe/sitemap.xml
